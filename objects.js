@@ -5,6 +5,6 @@ var playlist = { queen:'eterno', alanis:'thank U'};
  return playlist;
 }
 function removeFromPlaylist(playlist,artistName){
-delete playlist.queen;
+delete playlist.artistName;
  return playlist
 }
