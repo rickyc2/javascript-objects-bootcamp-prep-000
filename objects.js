@@ -1,7 +1,7 @@
 var playlist = { queen:'eterno', alanis:'thank U'};
 
  function updatePlaylist(playlist,artistName,songTitle){
- Object.assign ({},{eminem:'8mile'})
+ playlist[artistName] = songTitle;
  return updatePlaylist
 }
 function removeFromPlaylist(playlist,artistName){
